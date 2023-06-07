@@ -1,0 +1,19 @@
+{
+  "apiVersion": "2",
+  "name": "an/news",
+  "title": "News",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Show news.",
+  "keywords": ["posts", "news", "an"],
+  "version": "0.0.1",
+  "textDomain": "an",
+  "attributes": {
+    "category": {
+      "type": "integer"
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}

@@ -1,0 +1,16 @@
+.wp-block-an-register {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.is-style-dark {
+        background-color: #000;
+        color: #fff;
+    }
+
+    &.is-style-light {
+        background-color: #fff;
+        color: #000;
+    }
+}

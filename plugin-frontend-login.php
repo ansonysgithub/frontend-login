@@ -29,6 +29,10 @@ function an_activate_plugin()
     ));
 }
 
+//Blocks
+require_once AN_PLUGIN_URL . 'blocks/register/index.php';
+require_once AN_PLUGIN_URL . 'blocks/news/index.php';
+
 register_activation_hook(__FILE__, 'an_activate_plugin');
 
 function an_deactivate_plugin()
